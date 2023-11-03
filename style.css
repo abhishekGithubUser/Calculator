@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+  position: absolute;
+  top: calc(50% - 40vh);
+  right:calc(50% - 12vw);
+}
+
+.container{
+    width: 22vw;
+    min-width: 300px;
+    /* min-height: 500px; */
+    background-color: black;
+    border-radius: 10px;
+    border: 3px solid gray;
+    overflow: hidden;
+    padding: 5px;
+
+}
+
+.out-display{
+    height:  15vh;
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: end;
+    font-size: 2rem;
+    color: rgb(87, 81, 81);
+    padding-right:20px ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    box-shadow: 0 0 10px 6px rgb(31, 30, 30);
+}
+
+.number-Input{
+    height:  55vh;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+
+}
+
+
+
+.inp{
+   
+    text-align: center;
+    padding:1rem 0.3rem 0.7rem 0.3rem ;
+    border-radius: 50%;
+    font-size: 1.5rem;
+ 
+}
+.num{
+    background-color: #555555;
+    
+    box-shadow: 0 0 10px 6px #1c1a1a;
+}
+.operent-top{
+    background-color: #d5d5d3;
+
+}
+.operent{
+    
+    background-color: #ff9808;
+    box-shadow: 0 0 10px rgba(242, 78, 24, 0.459);
+}
+
+.zero{
+    grid-column: 1 / span 2;
+    border-radius: 30px 30px 30px 30px;
+}
+
+
+.num:hover{
+    background-color: #f3e3e3;
+}
+.operent-top:hover{
+    background-color: #e5e5e4a1;
+}
+
+.operent:hover{
+    background-color: #ff9500a4;
+}
